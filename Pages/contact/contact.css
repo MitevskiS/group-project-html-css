@@ -60,9 +60,10 @@ body {
 }
 
 .contact-content {
-  margin: 40px auto;
-  max-width: 800px;
-  padding: 0 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1F2937;
 }
 
 .contact-content h2 {

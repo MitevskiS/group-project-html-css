@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log In</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header class="hero">
+            <div class="container hero-container">
+            <h1 class="logo">
+                <img src="../../Images/logo.png" alt="Logo" class="logo-img"> Global Shopping
+            </h1>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="login-content">
+                    <h3>Welcome Back! Log In</h3>
+                    <p>Don't have an account? <a href="./signup.html">Sign Up</a></p>
+                </div>
+                <form action="/login.php" method="post" class="form">
+                    <label for="username">Username or Email:</label>
+                    <input type="text" id="login" name="login" autocomplete="username" required>
+
+                    <label for="password"> Password:</label>
+                    <input type="password" id="password" name="password" autocomplete="current-password" required>
+
+                    <input type="submit" value="Log In">
+                    <p><a href="./login.html">Forgot my password</a></p>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+           <div class="footer-container">
+                <p class="bottom-text">Copyright @2025; Designed by Ruth&Stephan</p>
+           </div>
+        </footer>
+    </body>
+</html>
