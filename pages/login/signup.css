@@ -1,66 +1,10 @@
-<<<<<<<< HEAD:Pages/login/signup.css
-========
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.6;
-}
-
-.hero {
-  background-color: #1F2937;
-  color: #F9FAF8;
-  padding: 20px 0 30px;
-}
-
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.hero-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.logo-img {
-  width: 30px;
-  height: auto;
-}
-
-footer {
-  background-color: #1F2937;
-  color: #f1f1f1;
-  padding: 20px 0;
-}
-
-.footer-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
-}
 
 .bottom-text {
   margin-bottom: 5px;
   font-size: 14px;
 }
 
->>>>>>>> origin/main:pages/login/signUp.css
 .signup-content {
   padding: 20px;
   text-align: center;
