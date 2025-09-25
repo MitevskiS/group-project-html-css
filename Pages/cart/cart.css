@@ -1,6 +1,15 @@
-
 .btn {
   background-color: #3882F6;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background-color: transparent;
   border: 2px solid white;
   color: white;
   padding: 8px 20px;
@@ -24,7 +33,7 @@
   flex-direction: column;
   /* min-height: 100vh; */
 }
-
-.red-word{
-  color: red;
+  outline:hover {
+  background-color: white;
+  color: #3882F6;
 }
