@@ -1,0 +1,40 @@
+
+.contact-content {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1F2937;
+}
+
+.contact-content h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  color: #1F2937;
+}
+
+.contact-content h3 {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: #3882F6;
+}
+
+.contact-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 5px;
+}
+
+.contact-info{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info ul{
+  list-style: none;
+}

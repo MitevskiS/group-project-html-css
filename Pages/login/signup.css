@@ -1,3 +1,5 @@
+<<<<<<<< HEAD:Pages/login/signup.css
+========
 * {
   margin: 0;
   padding: 0;
@@ -41,14 +43,9 @@ body {
 }
 
 footer {
- position: fixed;
-  bottom: 0;
-  width: 100%;
   background-color: #1F2937;
   color: #f1f1f1;
   padding: 20px 0;
-  text-align: center;
-
 }
 
 .footer-container {
@@ -63,7 +60,8 @@ footer {
   font-size: 14px;
 }
 
-.login-content {
+>>>>>>>> origin/main:pages/login/signUp.css
+.signup-content {
   padding: 20px;
   text-align: center;
 }
