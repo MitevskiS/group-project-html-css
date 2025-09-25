@@ -17,8 +17,15 @@
         <img src="./images/logo.png" alt="Logo" class="logo-img"> Global Shopping
       </h1>
 
-      <nav>
-        <ul class="nav-links">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-links">
+        <ul>
           <li><a href="./pages/categories/categories.html">Categories</a></li>
           <li><a href="./pages/cart/cart.html">Cart</a></li>
           <li><a href="./pages/about/about.html">About</a></li>
@@ -26,70 +33,74 @@
         </ul>
       </nav>
     </div>
-
-    <div class="container hero-content">
-      <div class="hero-text">
-        <h2>Welcome to the best online shopping store</h2>
-        <p>Bringing the Store to Your Door</p>
-        <a href="./pages/login/signUp.html">
-          <button class="btn">Sign up</button>
-        </a>
-      </div>
-      <div class="hero-image">
-        <img src="./images/shopping.jpeg" alt="Shopping image">
-      </div>
-    </div>
   </header>
 
-  <section class="info">
-    <h3>Best of the week</h3>
-    <div class="info-boxes">
-      <a href="./pages/products/products.html" class="box">
-        <img src="./images/shopping.jpeg" alt="Product 1">
-      </a>
-
-      <a href="./pages/products/products.html" class="box">
-        <img src="./images/shopping.jpeg" alt="Product 2">
-      </a>
-
-      <a href="./pages/products/products.html" class="box">
-        <img src="./images/shopping.jpeg" alt="Product 3">
-      </a>
-
-      <a href="./pages/products/products.html" class="box">
-        <img src="./images/shopping.jpeg" alt="Product 4">
-      </a>
-    </div>
-  </section>
-
-  <section class="quote">
-    <p class="quote-text">
-      "I found exactly what I needed in just a few clicks. The design is clean, and checkout was super simple."
-    </p>
-    <p class="quote-author">- Sarah M, Buyer</p>
-  </section>
-  <section class="cta">
-    <div class="cta-content">
-      <div>
-        <h4>Don't let them tell you.</h4>
-        <p>Sign up for our products and newsletters</p>
+  <main>
+    <section class="hero-content">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="hero-text">
+            <h2>Welcome to the best online shopping store</h2>
+            <p>Bringing the Store to Your Door</p>
+          </div>
+          <a href="./pages/login/signUp.html" class="btn">Sign up</a>
+        </div>
+        <div class="hero-right">
+          <img src="./images/shopping.jpeg" alt="Shopping image" class="hero-image">
+        </div>
       </div>
-      <a href="./pages/login/signUp.html">
-      <button class="btn-outline">Sign up</button>
-      </a>
-    </div>
-  </section>
+    </section>
+
+    <section class="info">
+      <h3>Best of the week</h3>
+      <div class="info-boxes">
+        <div class="box">
+          <a href="./pages/products/products.html">
+            <img src="./images/shopping.jpeg" alt="Product 1" class="card-img">
+          </a>
+          <p class="box-text">This is some subtext under an illustration or image</p>
+        </div>
+        <div class="box">
+          <a href="./pages/products/products.html">
+            <img src="./images/shopping.jpeg" alt="Product 2" class="card-img">
+          </a>
+          <p class="box-text">This is some subtext under an illustration or image</p>
+        </div>
+        <div class="box">
+          <a href="./pages/products/products.html">
+            <img src="./images/shopping.jpeg" alt="Product 3" class="card-img">
+          </a>
+          <p class="box-text">This is some subtext under an illustration or image</p>
+        </div>
+        <div class="box">
+          <a href="./pages/products/products.html">
+            <img src="./images/shopping.jpeg" alt="Product 4" class="card-img">
+          </a>
+          <p class="box-text">This is some subtext under an illustration or image</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <p>"I found exactly what I needed in just a few clicks. The design is clean, and checkout was super simple."</p>
+      <p class="quote-author">- Sarah M, Buyer</p>
+    </section>
+
+    <section class="cta">
+      <h4>Don't let them tell you.</h4>
+      <p>Sign up for our products and newsletters</p>
+      <a href="./pages/login/signUp.html" class="btn-outline">Sign up</a>
+    </section>
+  </main>
 
   <footer>
-    <div class="footer-container">
-      <nav class="nav-links-footer">
-          <a href="./index.html">Home</a>
-          <a href="./pages/about/about.html">About</a>
-          <a href="./pages/categories/">Categories</a>
-          <a href="./pages/contact/contact.html">Contact</a>
-      </nav>
-      <p class="bottom-text">Copyright @2025; Designed by Ruth&Stefan</p>
-    </div>    
+    <nav class="nav-links-footer">
+      <a href="./index.html">Home</a>
+      <a href="./pages/about/about.html">About</a>
+      <a href="./pages/categories/">Categories</a>
+      <a href="./pages/contact/contact.html">Contact</a>
+    </nav>
+    <p class="bottom-text">Copyright © 2025; Designed by Ruth & Stefan</p>
   </footer>
 
 </body>
