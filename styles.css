@@ -275,6 +275,10 @@ footer {
   font-size: 14px;
 }
 
+.red-word{
+  color: red;
+}
+
 @media (max-width: 768px) {
   .burger {
     display: flex;
